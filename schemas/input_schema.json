@@ -1,0 +1,12 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Payment Fraud Monitoring Input",
+  "type": "object",
+  "additionalProperties": true,
+  "properties": {
+    "amount": { "type": "number" },
+    "time_delta": { "type": "number" },
+    "is_night": { "type": "integer" },
+    "country_mismatch": { "type": "integer" }
+  }
+}
